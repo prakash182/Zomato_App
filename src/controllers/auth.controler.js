@@ -1,0 +1,1 @@
+const authModel =require('../models/user.model');
