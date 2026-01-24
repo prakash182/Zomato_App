@@ -9,3 +9,5 @@ function ConnectDB (){
         console.log("mongodb connection error:", err);
     })
 }
+
+module.exports = ConnectDB;
