@@ -171,7 +171,7 @@ async function loginFoodPartner(req, res) {
     foodPartner: {
       _id: foodPartner._id,
       email: foodPartner.email,
-      name :foodPartner.name,
+      name: foodPartner.name,
     },
   });
 }
