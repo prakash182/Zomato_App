@@ -1,6 +1,7 @@
 const express = require('express');
-const foodPartnerController = require("../controllers/food-partner.controller");
-const authMiddleware = require("../middlewares/auth.middleware");
+const foodController = require("../controllers/food.controller")
+const authMiddleware = require("../middlewares/auth.middleware")
+const multer = require('multer');
 
 const router = express.Router();
 

@@ -1,6 +1,5 @@
-const authController = require('../controllers/auth.controler')
-const express = require('express')
-const router = express.Router();
+const express = require('express');
+const authController = require("../controllers/auth.controller")
 
 
 // user auth APIs
